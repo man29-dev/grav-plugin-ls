@@ -1,0 +1,5 @@
+<ul>
+{% for item in page.children() %}
+    <li><a href="{{ item.url() }}">{{ item.title() }}</a></li>
+{% endfor %}
+</ul>
